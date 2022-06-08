@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  float: left;
+  border: 2px solid black;
+  height: 100%;
+ 
+  margin-top: 5% ;
+  margin-left: 2%;
+}
+.mnu{width: 20%;}
+.ctgy{width: 43%;}
+.prle{width: 28%;}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.profile{
+  justify-content: space-between;
+}
+.category{margin: 15% 3%;}
+.banner{height: 20%;border: 2px solid yellow;}
+.chart{height: 30%;}
+.table{height: 30%;}
+h2{text-align: left; margin-left: 5%;}
+.bannerBTN{background-color: rgb(247, 240, 52); color: white; border: none;border-radius: 5px;height: 25px;margin-right: 80%;}
+.circle{width: 80px;height: 80px; border-radius: 50px; border: 2px solid rgb(247, 240, 52);float: right;margin-right: 5%;}
+.profilename{}
+.appname{height: 17%;margin-top:8% ;}
+.search{height: 15%;margin-top: 45%;}
+h3{float: right;}
+input{border-radius: 5px; float: right;}
+.icon{width: 40px;height: 40px; border-radius: 50px; border: 1px solid rgb(247, 240, 52);float: right; }
+h5{float: right;}
+.stylall{border: 2px solid yellow; margin-top:5% ;}
+.remaincharge{height: 50%;}
+.servic{height: 30%;}
+.h4p{text-align: right;margin-right: 5%;}
