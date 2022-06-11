@@ -1,15 +1,16 @@
 .App {
   text-align: center;
   float: left;
-  border: 2px solid black;
+
   height: 100%;
- 
-  margin-top: 5% ;
+
+  margin-top: 2% ;
   margin-left: 2%;
 }
-.mnu{width: 20%;}
-.ctgy{width: 43%;}
-.prle{width: 28%;}
+
+.mnu{width: 18%;border-top-right-radius: 15px;border-bottom-right-radius: 15px; background-color: white;}
+.ctgy{width: 49%}
+.prle{width: 26%;}
 
 .App-logo {
   height: 40vmin;
@@ -46,23 +47,48 @@
   }
 }
 .profile{
-  justify-content: space-between;
+  justify-content: space-between;border-radius: 15px;background-color: white;margin: 40px; height: 100px;
+ 
 }
-.category{margin: 15% 3%;}
-.banner{height: 20%;border: 2px solid yellow;}
-.chart{height: 30%;}
-.table{height: 30%;}
+.category{margin: 5% 3%;}
+.banner{height: 20%; width: 100%;border-radius: 15px;}
+.image{
+  z-index: -1; position: static;}
+.chart{height: 25%;}
+.table{height: 25%;}
 h2{text-align: left; margin-left: 5%;}
 .bannerBTN{background-color: rgb(247, 240, 52); color: white; border: none;border-radius: 5px;height: 25px;margin-right: 80%;}
-.circle{width: 80px;height: 80px; border-radius: 50px; border: 2px solid rgb(247, 240, 52);float: right;margin-right: 5%;}
-.profilename{}
-.appname{height: 17%;margin-top:8% ;}
+.circle{width: 80px;height: 80px; border-radius: 50px; border: 5px solid rgb(247, 240, 52);float: right;margin-right: 5%;margin: 6px; }
+
+
+.appname{height: 17%;margin-top:8% ; display: flex;
+  align-items: center; direction: rtl; }
 .search{height: 15%;margin-top: 45%;}
 h3{float: right;}
 input{border-radius: 5px; float: right;}
-.icon{width: 40px;height: 40px; border-radius: 50px; border: 1px solid rgb(247, 240, 52);float: right; }
-h5{float: right;}
-.stylall{border: 2px solid yellow; margin-top:5% ;}
+.icon{width: 40px;height: 40px; border-radius: 50px; border: 1px solid rgb(247, 240, 52);float: right;margin: 15px; }
+h5{float: right; background-color: rgb(248, 230, 66);padding: 5px; border-radius: 12px; margin: 5px;}
+.stylall{ margin-top:10% ;}
 .remaincharge{height: 50%;}
-.servic{height: 30%;}
-.h4p{text-align: right;margin-right: 5%;}
+.servic{height: 30%; direction: rtl;margin: 15px;text-align: right;padding: 10px;text-align: justify;}
+.h4p{text-align: right;margin-right: 5%;margin-bottom: 10%;}
+.mainpagep{text-align: right;}
+.search{border-color: rgb(201, 194, 194);width: 80%;height:40px;border-radius: 10px; text-align: right;color:rgb(201, 194, 194) ;margin: 20px;margin-top: 100px;margin-bottom: 50px;}
+.items{direction: rtl;justify-content: center;justify-content: space-between;margin: 15px;padding: 10px;margin-top: 150px;}
+span{margin: 10px;align-self: center;}
+.items p{text-align: right;}
+.label{color: rgb(201, 194, 194);margin: 10px;font-size: 14px;margin-top: 50px;margin-bottom: 30px;}
+.home{border-left: 3px solid yellow;}
+.icon-backg{border-radius: 8px;padding: 3px;border: 3px solid yellow;}
+.charge{color: white; padding: 10px; border-radius: 15px;background-color: rgb(252, 227, 39);border: none;margin-top: 80px;margin-bottom: 30px;}
+.applicationClick{width: 60px;height: 60px; float: left;margin: 15px;}
+.follow{float: left; background-color: rgb(248, 230, 66); border-radius: 12px;width: 170px;height: 25px;}
+.donught{z-index: 0; position: relative;bottom: 130px;color: rgb(48, 159, 159);}
+.recharge{width: 200px; height: 200px;margin: 0 auto;}
+.profilecharge{ justify-content: space-between;border-radius: 15px;border: 2px solid  rgb(245, 245, 151);margin: 10px;
+  background-color: rgb(245, 245, 151);margin-top: 50px;}
+.followapp{display: grid; grid-gap: 5px; grid-template-columns: repeat(auto-fit,80px);align-items: center;margin-top: 200px;}
+.tablediv{background-color: white; border-radius: 15px;padding: 3%;margin-top: 5%;}
+.chartdiv{background-color: white; border-radius: 15px;padding: 3%;margin-top: 5%;}
+.margintop-menu{margin-top: 30px;}
+ 
